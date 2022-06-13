@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model credentials {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model settings {
+  id        String   @id
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  allergies Json?
+  dislikes  Json?
+  likes     Json?
+  tried     Json?
+  diet      Json?
+  ranking   Json?
+  tags      Json?
+  location  Json?
+}
+
+model recipe {
+  id          Int      @id @default(autoincrement())
+  image       String
+  ingredients Json
+  steps       Json
+  tags        Json
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  title       String
+}

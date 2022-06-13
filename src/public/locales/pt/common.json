@@ -1,0 +1,13 @@
+{
+    "welcome" : "Bem-vindo ao Recipify!",
+    "introduction": "Obtenha recomendações de receitas personalizadas de forma rápida e fácil. Permita-nos tornar mais fácil para você planejar suas refeições ao longo do dia.",
+    "login_button": "Conecte-se",
+    "signup_button": "Inscrever-se",
+    "or" : "ou",
+    "user_prompt" : "Insira nome de usuário",
+    "password_prompt" : "Digite a senha",
+    "details" : "Nunca compartilharemos seus dados com mais ninguém.",
+    "submit" : "Enviar",
+    "username_label" : "Nome do usuário",
+    "password_label": "Senha"
+}

@@ -1,0 +1,49 @@
+.navbar {
+    background: none;
+}
+
+.navimg {
+    width: 25%;
+    justify-content: left;
+    align-items: left;
+    padding: 0%;
+    margin: 0%;
+}
+
+.layout {
+    left: 0%;
+}
+
+.navigation {
+    width: 100%;
+    background-color: #319a9f;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 0%;
+    justify-content: left;
+    align-items: left;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.link {
+    color: white;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+.Container {
+    margin-left: 0px;
+}
+.Nav.Brand {
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.Nav.Link a {
+    color: rgb(245,245,245);
+}
+.Nav.Link a:hover {
+    color: rgb(255, 255, 255);
+}

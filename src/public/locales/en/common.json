@@ -1,0 +1,16 @@
+{
+    "welcome" : "Welcome to Recipify!",
+    "introduction": "Get personalised recipe recommendations quick and easy. Allow us to make it easy for you to plan your meals throughout the day.",
+    "login_button": "Login",
+    "signup_button": "Sign up",
+    "or" : "or",
+    "user_prompt" : "Enter Username",
+    "password_prompt" : "Enter Password",
+    "details" : "We'll never share your details with anyone else.",
+    "submit" : "Submit",
+    "username_label" : "Username",
+    "password_label": "Password",
+    "Help": "Help",
+    "Recommendations" : "Recommendations",
+    "Account" : "Account"
+}
